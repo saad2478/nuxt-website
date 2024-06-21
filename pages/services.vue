@@ -9,7 +9,7 @@
       <!-- Page Title Section -->
       <div class="bg-gray-900 text-white py-12 mt-3">
         <div class="container mx-auto px-4 lg:px-8">
-          <h1 class="text-center text-2xl lg:text-3xl font-bold">Our Services</h1>
+          <h1 class="text-center text-2xl lg:text-3xl font-bold">Services Offered by IoT Expert</h1>
         </div>
       </div>
   
