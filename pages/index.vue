@@ -11,8 +11,10 @@
         <div class="relative isolate px-6 lg:px-8">
           <div class="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
             <div class="text-center">
-              <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Are You Ready To Design, Develop, and Deploy your IoT Solution?</h1>
-              <p class="mt-6 text-lg leading-8 text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+              <h1 class="text-4xl sm:text-6xl font-bold tracking-tight leading-loose text-white">
+  Ready to Design, Develop, and Deploy Your IoT Solution?
+</h1>
+              <p class="mt-6 text-lg leading-8 text-white">IoT Expert: Designing, developing, and deploying cutting-edge IoT solutions with expertise in web development, applications, and networking services.</p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
                 <nuxt-link to="/contact" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</nuxt-link>
                 <nuxt-link to="/about" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></nuxt-link>
@@ -27,9 +29,7 @@
         <div class="container mx-auto px-4 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
           <div class="lg:w-1/2">
             <h2 class="text-3xl lg:text-4xl font-bold mb-6">About Us</h2>
-            <p class="text-lg leading-relaxed mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p class="text-lg leading-relaxed mb-6">Welcome to IoT Expert, your trusted partner in creating transformative IoT solutions. At IoT Expert, we specialize in designing, developing, and deploying innovative IoT solutions tailored to meet your unique business needs. With our expertise in web development, application development, and networking services, we empower businesses to harness the full potential of IoT technology. Our dedicated team of professionals is committed to delivering robust, scalable, and secure solutions that drive efficiency, productivity, and growth. Whether you're looking to optimize operations, enhance customer experiences, or innovate with IoT, IoT Expert is here to guide you every step of the way. Join us on the journey to a smarter, connected future.
             </p>
             <nuxt-link to="/about" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Read More</nuxt-link>
           </div>
@@ -44,14 +44,14 @@
       <div class="bg-gray-900 text-white py-20">
         <div class="container mx-auto px-4 lg:px-8">
           <h2 class="text-3xl lg:text-4xl font-bold mb-6 text-center">Our Services</h2>
-          <p class="text-lg leading-relaxed mb-12 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="text-lg leading-relaxed mb-12 text-center">Empowering Your Digital Transformation</p>
           <div class="flex flex-wrap justify-center gap-8">
             <div class="bg-white shadow-lg rounded-lg p-6 w-72 text-center">
               <div class="flex justify-center">
                 <img src="/assets/images/coding.png" alt="Web Development" class="block mx-auto" />
               </div>
               <h3 class="text-black text-xl font-bold mb-4">Web Development</h3>
-              <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="text-gray-600">Crafting responsive, scalable, secure web applications driving business growth and brand success stories.</p>
             </div>
   
             <div class="bg-white shadow-lg rounded-lg p-6 w-72 text-center">
@@ -59,7 +59,7 @@
                 <img src="/assets/images/app-development.png" alt="App Development" class="block mx-auto" />
               </div>
               <h3 class="text-black text-xl font-bold mb-4">App Development</h3>
-              <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="text-gray-600">Building intuitive, user-friendly mobile applications driving customer engagement and revenue growth.</p>
             </div>
   
             <div class="bg-white shadow-lg rounded-lg p-6 w-72 text-center">
@@ -67,7 +67,7 @@
                 <img src="/assets/images/cyber.png" alt="Networking Services" class="block mx-auto" />
               </div>
               <h3 class="text-black text-xl font-bold mb-4">Networking Services</h3>
-              <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="text-gray-600">Designing, implementing, managing robust high-performance networks driving connectivity, collaboration.</p>
             </div>
           </div>
         </div>

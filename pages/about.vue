@@ -19,9 +19,7 @@
           <div class="lg:w-1/2 mb-8 lg:mb-0">
             <h2 class="text-3xl lg:text-4xl font-bold mb-6 text-black">About Our Company</h2>
             <p class="text-lg leading-relaxed mb-6 text-black">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Welcome to IoT Expert, your trusted partner in creating transformative IoT solutions. At IoT Expert, we specialize in designing, developing, and deploying innovative IoT solutions tailored to meet your unique business needs. With our expertise in web development, application development, and networking services, we empower businesses to harness the full potential of IoT technology. Our dedicated team of professionals is committed to delivering robust, scalable, and secure solutions that drive efficiency, productivity, and growth. Whether you're looking to optimize operations, enhance customer experiences, or innovate with IoT, IoT Expert is here to guide you every step of the way. Join us on the journey to a smarter, connected future.
             </p>
           </div>
   
