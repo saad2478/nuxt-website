@@ -11,7 +11,7 @@
         <div class="relative isolate px-6 lg:px-8">
           <div class="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
             <div class="text-center">
-              <h1 class="text-4xl sm:text-6xl font-bold tracking-tight leading-loose text-white">
+              <h1 class="slider-hed text-4xl sm:text-6xl font-bold text-white">
   Ready to Design, Develop, and Deploy Your IoT Solution?
 </h1>
               <p class="mt-6 text-lg leading-8 text-white">IoT Expert: Designing, developing, and deploying cutting-edge IoT solutions with expertise in web development, applications, and networking services.</p>
@@ -137,5 +137,13 @@
     background-size: cover;
     background-position: center;
   }
+  .slider-hed{
+    line-height: 5rem;
+  }
+  @media only screen and (max-width: 600px) {
+    .slider-hed{
+    line-height: 3rem;
+  }
+}
   </style>
   
