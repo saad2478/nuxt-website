@@ -6,7 +6,7 @@
           <!-- Logo (replace 'logo.svg' with your actual logo) -->
           <NuxtLink to="/">
             <nuxt-img
-      src="/assets/images/IoT-png.webp"
+      src="/IoT-png.webp"
       alt="Logo"
       width="124px"
       height="80px"
