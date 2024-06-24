@@ -3,7 +3,7 @@ import { defineNuxtConfig } from 'nuxt/config';
 export default defineNuxtConfig({
   app: {
     head: {
-      titleTemplate: '%s | IoT Expert',
+      titleTemplate: 'IoT Expert',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,7 +16,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
   ],
   image: {
-    dir: 'assets/images',
     screens: {
       xs: 320,
       sm: 640,
