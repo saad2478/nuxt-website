@@ -1,10 +1,5 @@
 <template>
     <div>
-      <!-- SEO: Title and Meta Description -->
-      <nuxt-head>
-        <title>Contact Us | IoT Expert</title>
-        <meta name="description" content="Get in touch with us for any inquiries or support. Contact us via phone, email, or visit our office. We are here to help you." />
-      </nuxt-head>
   
       <!-- Page Title Section -->
       <div class="bg-gray-900 text-white py-12 mt-3">
@@ -68,7 +63,18 @@
   
   <script>
   export default {
-    // You can add script logic if needed
+    head() {
+      return {
+        title: 'Contact Us | IoT Expert',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Get in touch with us for any inquiries or support. Contact us via phone, email, or visit our office. We are here to help you.'
+          }
+        ]
+      };
+    }
   };
   </script>
   

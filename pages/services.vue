@@ -1,10 +1,5 @@
 <template>
     <div>
-      <!-- SEO: Title and Meta Description -->
-      <nuxt-head>
-        <title>Our Services | IoT Expert</title>
-        <meta name="description" content="Discover our range of services including web development, app development, and networking services. We provide top-notch solutions to meet your business needs." />
-      </nuxt-head>
   
       <!-- Page Title Section -->
       <div class="bg-gray-900 text-white py-12 mt-3">
@@ -50,7 +45,18 @@
   
   <script>
   export default {
-    // You can add script logic if needed
+    head() {
+      return {
+        title: 'Our Services | IoT Expert',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Discover our range of services including web development, app development, and networking services. We provide top-notch solutions to meet your business needs.'
+          }
+        ]
+      };
+    }
   };
   </script>
   

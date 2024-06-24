@@ -1,10 +1,5 @@
 <template>
     <div>
-      <!-- SEO: Title and Meta Description -->
-      <nuxt-head>
-        <title>Home | IoT Expert</title>
-        <meta name="description" content="Welcome to our IoT solutions company. We design, develop, and deploy IoT solutions tailored to your needs. Get started with us today!"/>
-      </nuxt-head>
 
       <!-- Slider -->
       <div class="custom-bg-image">
@@ -29,7 +24,7 @@
             <h2 class="text-3xl lg:text-4xl font-bold mb-6">About Us</h2>
             <p class="text-lg leading-relaxed mb-6">Welcome to IoT Expert, your trusted partner in creating transformative IoT solutions. At IoT Expert, we specialize in designing, developing, and deploying innovative IoT solutions tailored to meet your unique business needs. With our expertise in web development, application development, and networking services, we empower businesses to harness the full potential of IoT technology. Our dedicated team of professionals is committed to delivering robust, scalable, and secure solutions that drive efficiency, productivity, and growth. Whether you're looking to optimize operations, enhance customer experiences, or innovate with IoT, IoT Expert is here to guide you every step of the way. Join us on the journey to a smarter, connected future.
             </p>
-            <nuxt-link to="/about" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Read More</nuxt-link>
+            <nuxt-link to="/about" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Read More About Our Company</nuxt-link>
           </div>
   
           <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-10">
@@ -132,8 +127,19 @@
   
   <script>
   export default {
-    // You can add script logic if needed
-  }
+    head() {
+      return {
+        title: 'Home | IoT Expert',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Welcome to our IoT solutions company. We design, develop, and deploy IoT solutions tailored to your needs. Get started with us today!'
+          }
+        ]
+      };
+    }
+  };
   </script>
   
   <style scoped>

@@ -1,12 +1,22 @@
-// nuxt.config.js
+import { defineNuxtConfig } from 'nuxt/config';
 
 export default defineNuxtConfig({
-  devtools: {
-    enabled: true,
+  app: {
+    head: {
+      titleTemplate: '%s | IoT Expert',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: 'Your default description here' }
+      ]
+    }
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxt/image',
+  ],
   image: {
-    provider: 'netlify',
+    dir: 'assets/images',
     screens: {
       xs: 320,
       sm: 640,
