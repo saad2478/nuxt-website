@@ -21,7 +21,7 @@
           <div class="flex flex-wrap justify-center gap-8">
             <div class="bg-white shadow-lg rounded-lg p-6 w-72 text-center">
               <div class="flex justify-center">
-                <img src="/assets/images/coding.png" alt="Web Development" class="block mx-auto" />
+                <img src="/assets/images/coding.webp" alt="Web Development" class="block mx-auto" />
               </div>
               <h3 class="text-black text-xl font-bold mb-4">Web Development</h3>
               <p class="text-gray-600">Crafting responsive, scalable, secure web applications driving business growth and brand success stories.</p>
@@ -29,7 +29,7 @@
   
             <div class="bg-white shadow-lg rounded-lg p-6 w-72 text-center">
               <div class="flex justify-center">
-                <img src="/assets/images/app-development.png" alt="App Development" class="block mx-auto" />
+                <img src="/assets/images/app-development.webp" alt="App Development" class="block mx-auto" />
               </div>
               <h3 class="text-black text-xl font-bold mb-4">App Development</h3>
               <p class="text-gray-600">Building intuitive, user-friendly mobile applications driving customer engagement and revenue growth.</p>
@@ -37,7 +37,7 @@
   
             <div class="bg-white shadow-lg rounded-lg p-6 w-72 text-center">
               <div class="flex justify-center">
-                <img src="/assets/images/cyber.png" alt="Networking Services" class="block mx-auto" />
+                <img src="/assets/images/cyber.webp" alt="Networking Services" class="block mx-auto" />
               </div>
               <h3 class="text-black text-xl font-bold mb-4">Networking Services</h3>
               <p class="text-gray-600">Designing, implementing, managing robust high-performance networks driving connectivity, collaboration.</p>

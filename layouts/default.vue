@@ -5,7 +5,7 @@
         <div class="container mx-auto px-4 lg:px-8 flex items-center justify-between">
           <!-- Logo (replace 'logo.svg' with your actual logo) -->
           <NuxtLink to="/">
-            <img src="/assets/images/IoT Png.png" alt="Logo" class="h-20" />
+            <img src="/assets/images/IoT-Png.webp" alt="Logo" class="h-20" />
           </NuxtLink>
   
           <!-- Desktop Menu -->

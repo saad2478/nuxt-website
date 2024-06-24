@@ -14,7 +14,7 @@
               <h1 class="slider-hed text-4xl sm:text-6xl font-bold text-white"> Ready to Design, Develop, and Deploy Your IoT Solution?</h1>
               <p class="mt-6 text-lg leading-8 text-white">IoT Expert: Designing, developing, and deploying cutting-edge IoT solutions with expertise in web development, applications, and networking services.</p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
-                <nuxt-link to="/contact" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</nuxt-link>
+                <nuxt-link to="/contact" class="rounded-md bg-blue-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Get started</nuxt-link>
                 <nuxt-link to="/about" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></nuxt-link>
               </div>
             </div>
@@ -33,7 +33,7 @@
           </div>
   
           <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-10">
-            <img src="/assets/images/about.jpg" alt="About our company">
+            <img src="/assets/images/about.webp" alt="About our company">
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
           <div class="flex flex-wrap justify-center gap-8">
             <div class="bg-white shadow-lg rounded-lg p-6 w-72 text-center">
               <div class="flex justify-center">
-                <img src="/assets/images/coding.png" alt="Web Development" class="block mx-auto" />
+                <img src="/assets/images/coding.webp" alt="Web Development" class="block mx-auto" />
               </div>
               <h3 class="text-black text-xl font-bold mb-4">Web Development</h3>
               <p class="text-gray-600">Crafting responsive, scalable, secure web applications driving business growth and brand success stories.</p>
@@ -54,7 +54,7 @@
   
             <div class="bg-white shadow-lg rounded-lg p-6 w-72 text-center">
               <div class="flex justify-center">
-                <img src="/assets/images/app-development.png" alt="App Development" class="block mx-auto" />
+                <img src="/assets/images/app-development.webp" alt="App Development" class="block mx-auto" />
               </div>
               <h3 class="text-black text-xl font-bold mb-4">App Development</h3>
               <p class="text-gray-600">Building intuitive, user-friendly mobile applications driving customer engagement and revenue growth.</p>
@@ -62,7 +62,7 @@
   
             <div class="bg-white shadow-lg rounded-lg p-6 w-72 text-center">
               <div class="flex justify-center">
-                <img src="/assets/images/cyber.png" alt="Networking Services" class="block mx-auto" />
+                <img src="/assets/images/cyber.webp" alt="Networking Services" class="block mx-auto" />
               </div>
               <h3 class="text-black text-xl font-bold mb-4">Networking Services</h3>
               <p class="text-gray-600">Designing, implementing, managing robust high-performance networks driving connectivity, collaboration.</p>
@@ -131,7 +131,7 @@
   
   <style scoped>
   .custom-bg-image {
-    background-image: url('/assets/images/slider-bg.jpg');
+    background-image: url('/assets/images/slider-bg.webp');
     background-size: cover;
     background-position: center;
   }

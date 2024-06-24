@@ -24,7 +24,7 @@
           </div>
   
           <div class="lg:w-1/2 lg:ml-10">
-            <img src="/assets/images/about.jpg" alt="About our company">
+            <img src="/assets/images/about.webp" alt="About our company">
           </div>
         </div>
       </div>
