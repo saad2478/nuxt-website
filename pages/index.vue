@@ -33,7 +33,14 @@
           </div>
   
           <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-10">
-            <img src="/assets/images/about.webp" alt="About our company">
+            <nuxt-img
+      src="/about.webp"
+      alt="About Image"
+      width="600px"
+      height="485px"
+      sizes="(max-width: 600px) 100vw, 400px"
+      loading="lazy"
+      />
           </div>
         </div>
       </div>
@@ -131,7 +138,7 @@
   
   <style scoped>
   .custom-bg-image {
-    background-image: url('/assets/images/slider-bg.webp');
+    background-image: url('/assets/images/slider-bg.webp?resize=1440');
     background-size: cover;
     background-position: center;
   }
