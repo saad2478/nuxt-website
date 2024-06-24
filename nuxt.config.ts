@@ -1,11 +1,12 @@
 // nuxt.config.js
+
 export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
   image: {
-    dir: 'assets/images', // Check if this path is correct relative to the root of your project
+    provider: 'netlify',
     screens: {
       xs: 320,
       sm: 640,
