@@ -28,14 +28,7 @@
           </div>
   
           <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-10">
-            <nuxt-img
-      src="/about.webp"
-      alt="About Image"
-      width="600px"
-      height="485px"
-      sizes="(max-width: 600px) 100vw, 400px"
-      loading="lazy"
-      />
+            <img src="/assets/images/about.webp" width="600px" height="485px" loading="lazy" alt="About Image">
           </div>
         </div>
       </div>
